@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Login</title>
+    <title>Singup</title>
 </head>
 <body>
         <div class="container mt-5" id="login">
@@ -14,7 +14,7 @@
                 <div class="col-sm-5">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="display-4">User Login</h3>
+                            <h3 class="display-4">User Singup</h3>
                         </div>
                         <div class="card-body">
                             <form action="" class="my-form">
