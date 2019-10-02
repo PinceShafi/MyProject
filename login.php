@@ -19,8 +19,8 @@
                         <div class="card-body">
                             <form action="" class="my-form">
                                 <div class="form-group">
-                                    <label for="name">Users</label>
-                                    <input type="text" name="name" placeholder="Enter User Name" class="form-control">                   
+                                    <label for="email">Users</label>
+                                    <input type="email" email="email" placeholder="Enter User Email" class="form-control" autocomplete="off">                   
                                 </div>
 
                                 <div class="form-group">
