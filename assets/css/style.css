@@ -3,8 +3,9 @@
     margin: 0%;
 }
 
-body {
+body,html {
     background: #f7f7f7;
+    height: 100%;
 }
 
 #login .card {
@@ -18,5 +19,18 @@ body {
 #login .card-header .display-4 {
     font-size: 2em;
 }
-
+.sidebar{
+    background: rgb(19, 15, 22);
+    height:100vmin;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar .nav-item {
+    padding: 5px 10px;
+}
+.sidebar .nav-link {
+    color: #f7f7f7;
+    font-size: 90%;
+}
 
