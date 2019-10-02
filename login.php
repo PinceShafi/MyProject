@@ -17,19 +17,22 @@
                             <h3 class="display-4">User Login</h3>
                         </div>
                         <div class="card-body">
-                            <form action="" class="my-form">
-                                <div class="form-group">
-                                    <label for="email">Users</label>
-                                    <input type="email" email="email" placeholder="Enter User Email" class="form-control" autocomplete="off">                   
-                                </div>
+                            <form action="">
+                                        <div class="form-group">
+                                            <label for="email">Users Email</label>
+                                            <input type="email" name="email" placeholder="Enter User Email" class="form-control" autocomplete="off">  
 
-                                <div class="form-group">
-                                    <label for="pass">Password</label>
-                                    <input type="password" name="pass" placeholder="Enter User Password" class="form-control">                   
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-primary" style="width:50%">LOGIN</button>        
-                                </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="pass">User Password</label>
+                                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control"> 
+                                                            
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-primary" style="width:50%">LOGIN</button>        
+                                        </div>
                             </form>
                         </div>
                     </div>
