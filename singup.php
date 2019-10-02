@@ -17,16 +17,27 @@
                             <h3 class="display-4">User Singup</h3>
                         </div>
                         <div class="card-body">
-                            <form action="" class="my-form">
+                            <form action="">
                                 <div class="form-group">
-                                    <label for="name">Users</label>
+                                    <label for="name">Users Name</label>
                                     <input type="text" name="name" placeholder="Enter User Name" class="form-control">                   
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Users Email</label>
+                                    <input type="email" name="email" placeholder="Enter User email" class="form-control" autocomplete="off">                   
                                 </div>
 
                                 <div class="form-group">
                                     <label for="pass">Password</label>
                                     <input type="password" name="pass" placeholder="Enter User Password" class="form-control">                   
                                 </div>
+                                <div class="form-group">
+                                            <label for="con-pass">Conform Password</label>
+                                            <input type="password" name="pass" placeholder="Enter User Conform Password" class="form-control" autocomplete="off"> 
+                                                            
+                                        </div>
+
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-primary" style="width:50%">LOGIN</button>        
                                 </div>
