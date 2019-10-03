@@ -26,7 +26,9 @@ body,html {
 .sidebar ul {
     list-style: none;
 }
-
+.sidebar .nav-item {
+    padding: 5px 10px;
+}
 .sidebar .nav-link {
     color: #f7f7f7;
     font-size: 90%;
