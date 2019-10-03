@@ -27,7 +27,7 @@
 
                                         <div class="form-group">
                                             <label for="pass"><i class="fas fa-key"></i> User Password</label>
-                                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm""> 
+                                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm"> 
                                                             
                                         </div>
 
