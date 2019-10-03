@@ -8,6 +8,11 @@ body,html {
     height: 100%;
 }
 
+
+label {
+    font-size: 80% !important;
+}
+
 #login .card {
     border: 0;
     box-shadow: 0px 0px 15px rgb(233, 233, 233)
@@ -33,4 +38,3 @@ body,html {
     color: #f7f7f7;
     font-size: 90%;
 }
-
