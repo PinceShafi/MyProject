@@ -21,13 +21,13 @@
                             <form action="">
                                         <div class="form-group">
                                             <label for="email"><i class="fas fa-envelope"></i> Users Email</label>
-                                            <input type="email" name="email" placeholder="Enter User Email" class="form-control form-control-sm"" autocomplete="off" >  
+                                            <input type="email" name="email" placeholder="Enter User Email" class="form-control form-control-sm"" autocomplete="off" requred>  
 
                                         </div>
 
                                         <div class="form-group">
                                             <label for="pass"><i class="fas fa-key"></i> User Password</label>
-                                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm"> 
+                                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm" requred=> 
                                                             
                                         </div>
 

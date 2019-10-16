@@ -25,7 +25,7 @@ label {
     font-size: 2em;
 }
 .sidebar{
-    background: rgb(19, 15, 22);
+    background: #f7f7f7;
     height:100vmin;
 }
 .sidebar ul {

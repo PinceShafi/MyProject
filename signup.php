@@ -23,26 +23,26 @@
                     <form action="signup.php" method="post">
                         <div class="form-group">
                             <label for="name"><i class="fas fa-user"></i> Users Name</label>
-                            <input type="text" name="name" placeholder="Enter User Name" class="form-control form-control-sm"> 
+                            <input type="text" name="name" placeholder="Enter User Name" class="form-control form-control-sm" requred> 
                             </div>
 
                         <div class="form-group">
                             <label for="email"><i class="fas fa-envelope"></i> Users Email</label>
-                            <input type="email" name="email" placeholder="Enter User email" class="form-control form-control-sm" autocomplete="off">     
+                            <input type="email" name="email" placeholder="Enter User email" class="form-control form-control-sm" autocomplete="off" requred>     
                         </div>
 
                         <div class="form-group">
                             <label for="pass"><i class="fas fa-key"></i> User Password</label>
-                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm">                   
+                            <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm" requred>                   
                         </div>
 
                         <div class="form-group">
                             <label for="con-pass"><i class="fas fa-key"></i> Confirm Password</label>
-                            <input type="password" name="pass" placeholder="Enter User Confirm Password" class="form-control form-control-sm" autocomplete="off">              
+                            <input type="password" name="pass" placeholder="Enter User Confirm Password" class="form-control form-control-sm" autocomplete="off" requred>              
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" name="signup" class="btn btn-primary btn-block btn-sm">SIGNUP</button>
+                            <button type="submit" name="signup" class="btn btn-primary btn-block btn-sm" requred>SIGNUP</button>
                         </div>
                     </form>
 
