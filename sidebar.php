@@ -10,6 +10,7 @@
     <title>Sidebar</title>
 </head>
 <body>
+    <?php include_once "navbar.php"?>
     <div class="container-fluid">
     <div class="row">
         <div class="col-sm-2 sidebar">
