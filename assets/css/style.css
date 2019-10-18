@@ -62,6 +62,11 @@ label {
     color: #000;
     font-size: 80%;
 }
+<<<<<<< HEAD
 .sidebar{
     background: darkblue;
+=======
+.nav-link{
+    background: #000;
+>>>>>>> master
 }
