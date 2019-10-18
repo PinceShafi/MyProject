@@ -9,14 +9,13 @@
     <title>Navbar</title>
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
-        <a class="nav-link nav-brands" href="#">Smart School</a>
+    <nav class="navbar navbar-black navbar-expand-sm">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Logout</a>
+            <a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Logout</a>
             </li>
         </ul>
     </nav>

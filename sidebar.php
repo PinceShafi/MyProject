@@ -14,23 +14,15 @@
     <div class="container-fluid">
     <div class="row">
         <div class="col-sm-2 sidebar">
+            <div id="sidebar-image-wrapper">
+                <img src="assets/img/logo.jpg" class="sidebar-img">
+            </div>
             <ul class="nav-pills nav-stacked">
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Students</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Add Stuents</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">About Students</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">Management</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">Students</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">Add Stuents</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">About Students</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#">Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-address-card"></i> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-graduate"></i> Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-tasks"></i> Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cogs"></i> Sitting</a></li>
             </ul>
         </div>
     </div>
