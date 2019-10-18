@@ -25,17 +25,40 @@ label {
     font-size: 2em;
 }
 .sidebar{
-    background: #f7f7f7;
+    background: #FFFFFF;
     height:100vmin;
 }
 .sidebar ul {
     list-style: none;
 }
+.sidebar ul :hover {
+    background: #BB2CD9;
+    size: 10px;
+}
 .sidebar .nav-item {
     padding: 5px 10px;
 }
 .sidebar .nav-link {
+    margin-left: 20px;
     color: #000;
     font-size: 90%;
 }
-
+.navbar{
+    background:rgba(255, 255, 255, 0.897);
+}
+/* Logo Img */
+#sidebar-image-wrapper {
+    width: 66px;
+    height: 60px;
+    margin: 5px auto;
+}
+.sidebar-img{
+    height: 60px;
+    width: 66px;
+    /* object-fit: contain; */
+    
+}
+.navbar .nav-link{
+    color: #000;
+    font-size: 80%;
+}
