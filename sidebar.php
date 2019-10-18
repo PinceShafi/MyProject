@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-sm-2 sidebar">
             <div id="sidebar-image-wrapper">
-                <img src="assets/img/logo.jpg" class="sidebar-img">
+                <img src="assets/img/school.jpg" class="sidebar-img">
             </div>
             <ul class="nav-pills nav-stacked">
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
