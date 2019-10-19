@@ -4,7 +4,24 @@
 
 
     if(isset($_POST["signup"])) {
-        echo "Your Work is done";
-    } else {
-       
+
+        $username = $_POST["username"];   
+        $email = $_POST["email"];
+        $pass = $_POST["pass"];
+        $con_pass = $_POST["con_pass"];
+
+       if($pass !== $con_pass){
+                echo "<div class='alert alert-danger' role='alert'>Password Do Not Match </div>";
+                } else {
+                $sql = "INSERT INTO login (`username` , `email` , `password` ) VALUES ('$username', '$email' , '$pass')";
+                if($con->query($sql) === TRUE){
+               echo header('Location: sidebar.php');
+             }else{
+                  echo "Error: " . $sql . "<br>" .$con->error;
+             }
+              $con->close();
+        }
     }
+    
+
+

@@ -15,13 +15,19 @@
     <div class="row">
         <div class="col-sm-2 sidebar">
             <div id="sidebar-image-wrapper">
-                <img src="assets/img/school.jpg" class="sidebar-img">
+                <img src="assets/img/school.png" class="sidebar-img">
             </div>
             <ul class="nav-pills nav-stacked">
-                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-address-card"></i> About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-graduate"></i> Students</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Parents</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-tasks"></i> Management</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-envelope"></i> Message</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-calendar-alt"></i> Calendar</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-class"></i> Classes Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-chalkboard-teacher"></i> Teachers</a></li>
+
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cogs"></i> Sitting</a></li>
             </ul>
         </div>
