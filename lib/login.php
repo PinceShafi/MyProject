@@ -1,6 +1,7 @@
 <?php
 
 // Include db connection
+
 include_once "db.php";
 
 if(isset($_POST["submit"])){
@@ -10,10 +11,13 @@ if(isset($_POST["submit"])){
 
     $sql = $con->query("SELECT * FROM login WHERE `email` = '$email' AND `password` = '$password'");
     if($sql->num_rows === 1){
-        header('location: dashboard.php');
+        header('location: ../index.php');
     }else{
         echo "Login Credentials are incorrect";
     }
     $con->close();
 }
-?>
+  
+
+
+ ?>

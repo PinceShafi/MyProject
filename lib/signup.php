@@ -15,13 +15,13 @@
                 } else {
                 $sql = "INSERT INTO login (`username` , `email` , `password` ) VALUES ('$username', '$email' , '$pass')";
                 if($con->query($sql) === TRUE){
-               echo header('Location: dashboard.php');
+               echo header('Location: index.php');
              }else{
                   echo "Error: " . $sql . "<br>" .$con->error;
              }
-              $con->close();
+              
         }
     }
     
 
-
+?>

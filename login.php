@@ -18,7 +18,7 @@
                             <h3 class="display-4"><i class="fas fa-user-circle"></i> User Login</h3>
                         </div>
                         <div class="card-body">
-                            <form action="login.php" method="post">
+                            <form action="lib/login.php" method="post">
                                         <div class="form-group">
                                             <label for="email"><i class="fas fa-envelope"></i> Users Email</label>
                                             <input type="email" name="email" placeholder="Enter User Email" class="form-control form-control-sm"" autocomplete="off" required>  
