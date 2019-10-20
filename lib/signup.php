@@ -15,7 +15,7 @@
                 } else {
                 $sql = "INSERT INTO login (`username` , `email` , `password` ) VALUES ('$username', '$email' , '$pass')";
                 if($con->query($sql) === TRUE){
-               echo header('Location: sidebar.php');
+               echo header('Location: dashboard.php');
              }else{
                   echo "Error: " . $sql . "<br>" .$con->error;
              }

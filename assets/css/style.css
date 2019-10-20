@@ -39,12 +39,12 @@ label {
     padding: 5px 10px;
 }
 .sidebar .nav-link {
-    margin-left: 20px;
+    margin-left: 5px;
     color: #000;
     font-size: 90%;
 }
 .navbar{
-    background:rgba(255, 255, 255, 0.897);
+    background:#1B95E0;
 }
 /* Logo Img */
 #sidebar-image-wrapper {
@@ -62,11 +62,6 @@ label {
     color: #000;
     font-size: 80%;
 }
-<<<<<<< HEAD
-.sidebar{
-    background: darkblue;
-=======
-.nav-link{
-    background: #000;
->>>>>>> master
+.navbar  .nav-link:hover{
+    color:#f7f7f7;
 }

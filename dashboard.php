@@ -25,7 +25,7 @@
                 <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-tasks"></i> Management</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-envelope"></i> Message</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-calendar-alt"></i> Calendar</a></li>
-                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-class"></i> Classes Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-calendar-plus"></i> Classes Schedule</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"> <i class="fas fa-chalkboard-teacher"></i> Teachers</a></li>
 
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-cogs"></i> Sitting</a></li>

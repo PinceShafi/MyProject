@@ -1,9 +1,19 @@
 <?php
 
 // Include db connection
+include_once "db.php";
+
 if(isset($_POST["submit"])){
-    echo "Login  connection has been successfully";
-}else{
-    echo "Error : connection field";
+
+    $email = $_POST["email"];
+    $password = $_POST["pass"];
+
+    $sql = $con->query("SELECT * FROM login WHERE `email` = '$email' AND `password` = '$password'");
+    if($sql->num_rows === 1){
+        header('location: dashboard.php');
+    }else{
+        echo "Login Credentials are incorrect";
+    }
+    $con->close();
 }
 ?>
