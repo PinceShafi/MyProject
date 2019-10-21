@@ -15,7 +15,9 @@ label {
 
 #login .card {
     border: 0;
-    box-shadow: 0px 0px 15px rgb(233, 233, 233)
+    box-shadow: 0px 0px 15px rgb(233, 233, 233);
+    
+    
 }
 #login .card-header {
     text-align: center;

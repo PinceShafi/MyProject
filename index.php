@@ -18,6 +18,8 @@
                 <img src="assets/img/school.png" class="sidebar-img">
             </div>
             <ul class="nav-pills nav-stacked">
+                <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-laugh-wink "></i> SB admin <sup>2</sup></a></li>
+                            <hr>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-address-card"></i> About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user-graduate"></i> Students</a></li>
