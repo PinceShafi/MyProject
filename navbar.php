@@ -12,10 +12,10 @@
     <nav class="navbar navbar-black navbar-expand-sm">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-user"></i> Login</a>
+            <a class="nav-link" href="#"><i class="fas fa-user"></i> Admin</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Logout</a>
+            <a class="nav-link" href="lib/logout.php"><i class="fas fa-sign-in-alt"></i> Logout</a>
             </li>
         </ul>
     </nav>

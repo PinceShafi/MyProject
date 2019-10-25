@@ -26,6 +26,16 @@ label {
 #login .card-header .display-4 {
     font-size: 2em;
 }
+/* forgot password */
+.form-group a{
+    color: rgb(68, 66, 66);
+    font-size: 85%;
+}
+.form-group a:hover{
+ text-decoration: none;
+ 
+}
+
 .sidebar{
     background: #FFFFFF;
     height:100vmin;
@@ -34,36 +44,57 @@ label {
     list-style: none;
 }
 .sidebar ul :hover {
-    background: #BB2CD9;
+    background: #1B95E0;
     size: 10px;
+    color: #f7f7f7;
 }
 .sidebar .nav-item {
     padding: 5px 10px;
 }
 .sidebar .nav-link {
     margin-left: 5px;
-    color: #000;
-    font-size: 90%;
+    color:rgb(68, 66, 66);
+    font-size: 83%;
 }
 .navbar{
     background:#1B95E0;
 }
-/* Logo Img */
-#sidebar-image-wrapper {
-    width: 66px;
-    height: 60px;
-    margin: 5px auto;
-}
-.sidebar-img{
-    height: 60px;
-    width: 66px;
-    /* object-fit: contain; */
-    
-}
+
 .navbar .nav-link{
-    color: #000;
+    color: rgb(166, 222, 255);
     font-size: 80%;
 }
 .navbar  .nav-link:hover{
     color:#f7f7f7;
+}
+    /*SB admin  */
+.sidebar-top{
+    text-align: center;
+    margin-top: 9px;
+}
+.sidebar-top a{
+    color: rgb(68, 66, 66);
+
+}
+
+.sidebar-top a:hover{
+    text-decoration:none;
+}
+
+/* Students */
+
+#students .card{
+    border: 0;
+    box-shadow: 0px 0px 15px rgb(233 ,233 ,233);
+}
+#students .card-header{
+    text-align: center;
+    background-color: #fff;
+}
+
+/* inputs */
+.form-control:focus{
+    box-shadow: none;
+    border-radius: 3px;
+    border:  solid #1B95E0;
 }

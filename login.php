@@ -21,17 +21,23 @@
                             <form action="lib/login.php" method="post">
                                 <div class="form-group">
                                     <label for="email"><i class="fas fa-envelope"></i> Users Email</label>
-                                    <input type="email" name="email" placeholder="Enter User Email" class="form-control form-control-sm"" autocomplete="off" required>  
+                                    <input type="email" name="email" placeholder="Enter User Email" class="form-control form-control-sm" autocomplete="off" required >  
                                 </div>
 
                                 <div class="form-group">
                                     <label for="pass"><i class="fas fa-key"></i> User Password</label>
-                                    <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm"  required> 
+                                    <input type="password" name="pass" placeholder="Enter User Password" class="form-control form-control-sm" required> 
                                                     
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="submit" class="btn btn-primary btn-block" name="submit" value="LOGIN">        
+                                    <a href="#" class="btn btn-link">Forgot password?</a>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary btn-block" name="submit" value="LOGIN">  
+                                          
                                 </div>
                             </form>
                         </div>
