@@ -27,7 +27,7 @@
                 // Checking 
                 if($con->query($sql) === TRUE){
                     if (move_uploaded_file($filetmp, '../uploads/' . $filename)) {
-                        echo 'Student added successfully';
+                        echo header('location: ../students.php');
                     }
                 }
                 

@@ -98,3 +98,13 @@ label {
     border-radius: 3px;
     border:  solid #1B95E0;
 }
+/* Table */
+.table{
+    font-size: 69%;
+}
+
+/* button  */
+.btn-xs{
+    font-size: 80%;
+    padding: 5px;
+}

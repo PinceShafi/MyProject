@@ -16,11 +16,11 @@
         <div class="row">
             <?php include_once "sidebar.php"   ?>
 
-            <div class="col-sm-10">
+            <div class="col-sm-12">
                  <!-- wrapper -->
-                <div class="container mt-5" id="students">
+                <div class="container mt-5" id="addit">
                     <div class="row justify-content-sm-center">
-                        <div class="col-sm-5">
+                            <div class="col-sm-10">
                             <div class="card">
                                 <div class="card-header">
                                     <h4>Students Detail</h4>
@@ -69,68 +69,7 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Students table -->
-                        <div class="col-sm-7">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4>Students</h4>
-                                </div>
-                                <div class="card-body">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                            <th scope="col">S#</th>
-                                            <th scope="col">First Name</th>
-                                            <th scope="col">Last Name</th>
-                                            <th scope="col">Fathers Name</th>
-                                            <th scope="col">Class</th>
-                                            <th scope="col">Section</th>
-                                            <th scope="col">Roll No</th>
-                                            <th scope="col">Action</th>
-
-                                            </tr> 
-                                        </thead>
-                                        <!-- Include DB connection -->
-                                        <?php include_once "lib/db.php" ?>
-                                        <tbody>
-                                            <?php  $sql = "SELECT * FROM students";
-                                                $result = $con->query($sql);
-
-                                                if($result->num_rows > 0){
-                                                    // output data 
-                                                    while($row = $result->fetch_assoc()){ ?>
-                                                        <tr>
-                                                            <td><?php echo $row["id"]?></td>
-                                                            <td><?php echo $row["first_name"]?></td>
-                                                            <td><?php echo $row["last_name"]?></td>
-                                                            <td><?php echo $row["fname"]?></td>
-                                                            <td><?php echo $row["class"]?></td>
-                                                            <td><?php echo $row["section"]?></td>
-                                                            <td><?php echo $row["roll"]?></td>
-                                                            <td>
-                                                                     <!-- botton -->
-                                                                <button type="button" class="btn btn-success btn-xs"> 
-                                                                    <i class="fas fa-pencil-alt"></i>
-                                                                </button>
-                                                                <button type="button" class="btn btn-danger btn-xs"> 
-                                                                    <i class="fas fa-trash"></i>
-                                                                </button>
-                                                            </td>
-
-
-                                                         </tr>
-                                                    <?php
-                                                    }
-                                                }
-                                            
-                                            ?>
-                                        </tbody>
-                                    </table>
-                                </div>
                             </div>
-                        
-                        </div>
                     </div>
                 </div>
             </div>
